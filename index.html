@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>石取りゲーム</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+    <h1>nimゲーム</h1>
+    <p style="color:red" id="winner"></p>
+    <p>残り：<span id="total"></span>個</p>
+    <p>※1度に3つまで取得できます。</p>
+    <p id="stone">
+        
+    </p>
+    プレイヤー<span id="player">A</span>さん
+    <!--石を何個取るか決めるところ-->
+    <form>
+        <p>石を<input type="number" id="num" name="num" min="1" max="3">個取る</p>
+        <button type="button" id="btn" name="btn">決定</button>
+    </form>
+    <p id="message"></p>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
